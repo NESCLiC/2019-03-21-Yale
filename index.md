@@ -22,7 +22,21 @@ eventbrite: "https://schedule.yale.edu/event/5166165?k=2fe647ee6e3054daf7887ae5a
 
 {% comment %}
 HEADER
-
+<a id="s_lc_event_5166165" href="http://schedule.yale.edu/event/5166165">CLICK AND REGISTER</a>
+<style>
+#s_lc_event_5166165 {
+  background: #00356B;
+  border: 1px solid #00356B;
+  border-radius: 4px;
+  color: #ffffff;
+  font: 18px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_5166165:hover {
+  opacity: 0.9;
+}
+</style>
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
@@ -47,21 +61,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 
-<a id="s_lc_event_5166165" href="http://schedule.yale.edu/event/5166165">CLICK AND REGISTER</a>
-<style>
-#s_lc_event_5166165 {
-  background: #00356B;
-  border: 1px solid #00356B;
-  border-radius: 4px;
-  color: #ffffff;
-  font: 18px Arial, Helvetica, Verdana;
-  padding: 8px 20px;
-  cursor: pointer;
-}
-#s_lc_event_5166165:hover {
-  opacity: 0.9;
-}
-</style>
+
 
 {% endif %}
 
