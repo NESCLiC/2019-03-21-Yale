@@ -15,7 +15,7 @@ instructor: ["Catherine DeRose", "Joshua Dull", "Sawyer Newman", ]
 helper: ["Kate Nyhan", "Barbara Etsy", "David Cirella"]     
 email: ["joshua.dull@yale.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: "http://schedule.yale.edu/event/5166165?k=2fe647ee6e3054daf7887ae5a75ed5ae"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "https://schedule.yale.edu/event/5166165?k=2fe647ee6e3054daf7887ae5a75ed5ae"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
