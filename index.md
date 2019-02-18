@@ -46,13 +46,23 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<iframe
-  src="{{page.eventbrite}}"
-  frameborder="0"
-  width="100%"
-  height="400px"
-  scrolling="auto">
-</iframe>
+
+<a id="s_lc_event_5166165" href="http://schedule.yale.edu/event/5166165">CLICK AND REGISTER</a>
+<style>
+#s_lc_event_5166165 {
+  background: #00356B;
+  border: 1px solid #00356B;
+  border-radius: 4px;
+  color: #ffffff;
+  font: 18px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_5166165:hover {
+  opacity: 0.9;
+}
+</style>
+
 {% endif %}
 
 
